@@ -11,3 +11,5 @@ If dont lunch the container with the install.sh run:
  Default mirror locate in france. (Change it in arch_sync.sh).<br>
  
  No https yet..
+ 
+ Then add ```Server = arch.[Your domain name]/$repo/os/$arch``` in the top of your ```/etc/pacman.d/mirrorlist```
